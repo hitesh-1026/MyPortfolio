@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding:5px;
+    border-radius:10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+        body {
+            background: linear-gradient(to right, #4B3FAE, #B0A7D9);
+        }
+
+
+        .frame{
+            max-width: 800px;
+            margin:20px  auto ;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .frame img{
+           border:#4B3FAE 13px solid;
+           border-radius: 10px;
+           box-shadow: 0 0 35px rgba(62, 58, 160, 0.645);
+        }
+
+        .movie img{
+            border:black 13px solid;
+            border-radius: 10px;
+         }
+
+         .social {
+            border:whitesmoke 15px solid;
+            border-radius: 10px;
+         }
+        
+
+
+        header {
+            background: white;
+            padding: 15px;
+        }
+
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        nav ul li a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: gray;
+            font-size: 16px;
+            
+        }
+
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        img{
+            width: 300px;
+            border-radius: 10p
+        }
+        .name{
+            max-width: 600px;
+            background: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .details{
+            max-width: 500px;
+            background: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .ME{
+            max-width: 700px;
+            background: whitesmoke;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+            font-weight: bold;
+            border: #4B3FAE 13px solid;
+            border-radius: 10px;
+        }
+
+        p1{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+
+        @media screen and (max-width: 768px) {
+            nav {
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+      
+            .Image img {
+              width: 160px;
+              height: 160px;
+            }
+      
+            h1 {
+              font-size: 2rem;
+            }
+            
+            h4 {
+              font-size: 1.5rem;
+            }
+            
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            .name {
+              font-size: 1.2rem;
+            }
+        }
+            
